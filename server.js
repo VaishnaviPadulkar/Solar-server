@@ -2,10 +2,10 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
-import AuthRoute from "./routes/AuthRoute.js"
-import CalculateRoute from "./routes/CalculateRoute.js"
-import ContactRoute from "./routes/ContactRoute.js";
-import AdminRoute from "./routes/adminRoute.js";
+import AuthRoute from "./routes/auth.routes.js"
+import CalculateRoute from "./routes/calculator.routes.js"
+import ContactRoute from "./routes/contact.routes.js";
+import AdminRoute from "./routes/admin.routes.js";
 
 dotenv.config();
 
